@@ -2,12 +2,14 @@
   "name": "carnet-club",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "trigger": "node vercel-trigger.js"
+},
+
   "dependencies": {
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.1",
